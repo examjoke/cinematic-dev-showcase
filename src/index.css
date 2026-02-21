@@ -53,6 +53,7 @@
   }
 }
 
+
 @layer base {
   * {
     @apply border-border;
@@ -71,9 +72,11 @@
   ::-webkit-scrollbar {
     width: 6px;
   }
+
   ::-webkit-scrollbar-track {
     background: hsl(220 20% 4%);
   }
+
   ::-webkit-scrollbar-thumb {
     background: hsl(185 100% 50% / 0.3);
     border-radius: 3px;
@@ -91,6 +94,7 @@
   .glass-panel-hover {
     @apply glass-panel transition-all duration-500;
   }
+
   .glass-panel-hover:hover {
     border-color: hsl(var(--neon-cyan) / 0.4);
     box-shadow:
@@ -117,11 +121,9 @@
 
   .gradient-text {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(
-      135deg,
-      hsl(var(--neon-cyan)),
-      hsl(var(--neon-magenta))
-    );
+    background-image: linear-gradient(135deg,
+        hsl(var(--neon-cyan)),
+        hsl(var(--neon-magenta)));
   }
 
   .section-spacing {
