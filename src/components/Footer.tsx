@@ -1,8 +1,8 @@
 import { Github, Linkedin, Youtube, Twitter, Instagram } from "lucide-react";
 
 const socials = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/Naziran7", label: "GitHub" },
+  { icon: Linkedin, href: "www.linkedin.com/in/naziran7", label: "LinkedIn" },
   { icon: Twitter, href: "#", label: "Twitter" },
   { icon: Instagram, href: "#", label: "Instagram" },
   { icon: Youtube, href: "#", label: "YouTube" },
@@ -12,7 +12,7 @@ const Footer = () => (
   <footer className="border-t border-border py-12 px-4">
     <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
       <p className="font-display text-sm text-muted-foreground tracking-wider">
-        © 2026 Alex Rivera. All rights reserved.
+        © 2026 Anish Naziran. All rights reserved.
       </p>
 
       {/* Mobile social links */}
@@ -30,7 +30,7 @@ const Footer = () => (
       </div>
 
       <p className="text-xs text-muted-foreground/50 font-body">
-        Crafted with passion & pixels
+        itznaziran7@gmail.com
       </p>
     </div>
   </footer>

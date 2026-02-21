@@ -1,12 +1,9 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Youtube, Twitter, Instagram } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 const socials = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Youtube, href: "#", label: "YouTube" },
+  { icon: Github, href: "https://github.com/Naziran7", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/naziran7", label: "LinkedIn" },
 ];
 
 const SocialDock = () => (
@@ -20,6 +17,8 @@ const SocialDock = () => (
       <motion.a
         key={label}
         href={href}
+        target="_blank"
+        rel="noopener noreferrer"
         aria-label={label}
         className="w-10 h-10 glass-panel flex items-center justify-center text-muted-foreground hover:text-primary hover:neon-glow transition-all duration-500"
         animate={{ y: [0, -4, 0] }}

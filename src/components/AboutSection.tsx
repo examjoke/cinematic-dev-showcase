@@ -3,10 +3,10 @@ import SectionWrapper from "./SectionWrapper";
 import { Code2, Palette, Zap, Globe } from "lucide-react";
 
 const highlights = [
-  { icon: Code2, label: "5+ Years Experience" },
-  { icon: Palette, label: "50+ Projects Delivered" },
-  { icon: Zap, label: "Performance Obsessed" },
-  { icon: Globe, label: "Global Clients" },
+  { icon: Code2, label: "Coding Languages" },
+  { icon: Palette, label: "10+ Projects " },
+  { icon: Zap, label: "FreeLancer" },
+  { icon: Globe, label: "Software Developer" },
 ];
 
 const stagger = {
@@ -27,16 +27,16 @@ const AboutSection = () => (
           About Me
         </motion.p>
         <motion.h2 variants={fadeUp} className="font-display text-3xl md:text-4xl font-bold mb-6 gradient-text">
-          Alex Rivera
+          I'm Anish naziran
         </motion.h2>
         <motion.p variants={fadeUp} className="text-lg text-muted-foreground leading-relaxed mb-4 font-body">
-          Full-stack developer and creative technologist passionate about pushing the boundaries
-          of what's possible on the web. I specialize in building immersive, performant applications
-          that blend beautiful design with robust engineering.
+        BCA student with a strong passion for Frontend Development and DevOps. Skilled in
+building user-friendly web interfaces, with a solid foundation in Data Structures and
+Algorithms (DSA). Eager to apply technical knowledge, gain hands-on experience, and
+explore opportunities to grow as a developer while contributing to impactful projects
         </motion.p>
         <motion.p variants={fadeUp} className="text-muted-foreground leading-relaxed font-body">
-          From interactive 3D experiences to scalable SaaS platforms, I bring ideas to life
-          with modern frameworks, creative animation, and a meticulous eye for detail.
+          
         </motion.p>
       </motion.div>
 

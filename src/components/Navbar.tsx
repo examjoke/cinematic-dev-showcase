@@ -30,7 +30,7 @@ const Navbar = () => {
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="font-display text-lg font-bold neon-text tracking-wider">
-          AR
+        <b>AN </b> Portofolio
         </a>
 
         {/* Desktop */}

@@ -27,20 +27,28 @@ const ResumeSection = () => (
 
           <FileText className="w-16 h-16 text-primary mx-auto mb-6" />
           <h3 className="font-display text-xl font-semibold mb-2 text-foreground">
-            Alex Rivera
+            Anish Naziran
           </h3>
           <p className="text-muted-foreground font-body mb-8">
-            Full-Stack Developer & Creative Technologist
+            Full-Stack Developer & Cloud Enthusiastic
           </p>
 
-          <motion.button
-            className="glass-panel px-8 py-3 font-display text-sm tracking-wider uppercase neon-text hover:neon-glow transition-all duration-500 inline-flex items-center gap-3"
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.97 }}
-          >
-            <Download className="w-4 h-4" />
-            Download CV
-          </motion.button>
+         
+          <div className="flex gap-4">
+
+
+
+{/* Google Drive button */}
+<a
+  href="https://drive.google.com/file/d/1j8ik2mX8ZtWcdJ4kgwStqajivVcDJD-D/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="glass-panel px-40 py-3 font-display text-sm tracking-wider uppercase text-white/80 hover:text-white transition inline-flex items-center gap-3"
+>
+  Open Drive
+</a>
+
+</div>
         </div>
       </TiltCard>
     </div>

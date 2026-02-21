@@ -38,13 +38,15 @@ const ContactSection = () => {
         </motion.div>
 
         <motion.form
-          onSubmit={handleSubmit}
-          className="glass-panel p-8 md:p-12 space-y-6"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
+  action="mailto:itznaziran7@gmail.com"
+  method="POST"
+  encType="text/plain"
+  className="glass-panel p-8 md:p-12 space-y-6"
+  initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.6 }}
+>
           <div className="grid md:grid-cols-2 gap-6">
             <input
               type="text"

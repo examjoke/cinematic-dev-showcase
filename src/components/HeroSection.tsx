@@ -22,11 +22,11 @@ const HeroSection = () => (
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.5 }}
       >
-        Creative Developer & Designer
+        Full Stack Developer | Cloud Computing
       </motion.p>
 
       <AnimatedText
-        text="Building Digital Experiences"
+        text="Anish Naziran"
         className="font-display text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight gradient-text"
       />
 
@@ -36,8 +36,7 @@ const HeroSection = () => (
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 1.2 }}
       >
-        I craft immersive web experiences with cutting-edge technology,
-        blending design and engineering into seamless digital products.
+      
       </motion.p>
 
       <motion.div
